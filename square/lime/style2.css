@@ -1,0 +1,592 @@
+ul{
+	margin-bottom: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+a{
+	text-decoration: none;
+}
+
+span{
+	display:block;
+}
+
+body{
+	width: 100%;
+}
+
+.contents{
+	width: 100%;
+	height: 570px;
+	background-color: #33ccff;
+}
+
+header{
+	height: 70px;
+}
+
+.header-contents {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.header-background{
+	width: 100%;
+	height: 70px;
+	position: fixed;
+	top: 0;
+	z-index: 3000;
+	background-color: #33ccff;
+}
+
+.header-logo{
+	float: left;
+}
+
+.navToggle{
+	display: none;
+}
+
+.navToggle {
+    display: block;
+    position: fixed;    /* bodyに対しての絶対位置指定 */
+    right: 13px;
+    top: 12px;
+    width: 42px;
+    height: 51px;
+    cursor: pointer;
+    z-index: 3;
+    background: #666;
+    text-align: center;
+}
+ 
+.navToggle span {
+    display: block;
+    position: absolute;    /* .navToggleに対して */
+    width: 30px;
+    border-bottom: solid 3px #eee;
+    -webkit-transition: .35s ease-in-out;
+    -moz-transition: .35s ease-in-out;
+    transition: .35s ease-in-out;
+    left: 6px;
+}
+ 
+.navToggle span:nth-child(1) {
+    top: 9px;
+}
+ 
+.navToggle span:nth-child(2) {
+    top: 18px;
+}
+ 
+.navToggle span:nth-child(3) {
+    top: 27px;
+}
+ 
+.navToggle span:nth-child(4) {
+    border: none;
+    color: #eee;
+    font-size: 9px;
+    font-weight: bold;
+    top: 34px;
+}
+
+.nav-items{
+	float: right;
+	margin-right: 100px;
+}
+
+.nav-item{
+	float: left;
+	padding: 0 20px;
+	font-size: 16px;
+	line-height: 70px;
+	list-style: none;
+}
+
+.nav-item a {
+	color: #fafafa !important;
+	display: inline-block;
+	width: 100%;
+}
+
+.nav-item a:hover{
+	color:black;
+	background-color: #87CEFA;
+	text-decoration: none;
+	opacity: 0.8;
+}
+.img-box{
+	width: 100%;
+}
+
+.slide-img{
+	width: 100%;
+	height: 350px;
+	background-image: url(img/jobs.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.slide-img:nth-child(2){
+	background-image: url(img/application.jpg);
+}
+
+.slide-img:nth-child(3){
+	background-image: url(img/conversation.jpg);
+}
+
+.app-box{
+	width: 320px;
+	height: 100px;
+	margin: 0 auto;
+}
+
+div .apple{
+	width: 150px;
+	margin: 0 auto;
+	float: left;
+	margin-right: 10px;
+	border-radius: 10%;
+}
+
+div .google{
+	width: 150px;
+	margin: 0 auto;
+	float: left;
+	border-radius: 10%;
+}
+
+
+.main{
+	width: 100%;
+}
+
+#about{
+	width: 100%;
+	margin: 0 auto;
+	padding: 100px 0 50px;
+}
+
+.content-head h1{
+	text-align: center;
+	padding: 55px;
+	border-bottom: 3px solid #ec715f;
+	padding-bottom: 8px;
+}
+
+.aboutcontent{
+	width: 90%;
+	height: 550px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.column{
+	float: left;
+	text-align: center;
+	width: 33%;
+}
+
+.column:nth-child(2){
+	padding: 0 5%;
+}
+
+.column-img {
+	float: left;
+	width: 33%;
+	padding: 0 10px;
+}
+.column-text-above{
+	padding: 100px 0 50px;
+}
+
+
+.main2{
+	background-color: #eeeeee;
+}
+
+#movie{
+	width: 90%;
+	padding: 55px 0 80px;
+	margin: 0 auto;
+}
+
+.movie-content{
+	text-align: center;
+	padding-top: 55px;
+}
+
+.movie-content iframe{
+	width: 550px;
+	height: 300px;
+}
+
+.main3{
+	background-image: url(img/space.jpg);
+	background-size: cover;
+	width: 100%;
+}
+
+#feature{
+	width: 980px;
+	margin: 0 auto;
+	padding-bottom: 90px;
+	color: #fff;
+}
+
+.feature-text h1{
+	padding: 90px 0 8px;
+	border-bottom: 3px solid #ec715f;
+	color: #fff;
+}
+
+.feature-text p{
+	font-size: 16px;
+	padding: 30px 0;
+	color: #fff;
+}
+
+.feature-text{
+	text-align: center;
+	color: #000000;
+}
+
+.feature-box h2{
+	padding: 10px 0;
+}
+
+.far, .fas{
+	font-size: 60px;
+}
+
+.feature-box{
+	float: left;
+	width: 320px;
+	height: auto;
+	text-align: center;
+	background-color: rgba(230,230,230,0.3);
+	padding: 20px 0 0 3px;
+
+}
+
+.feature-box:nth-child(-n+2){
+	margin-right: 10px;
+}
+
+#produce{
+	width: 90%;
+	margin: 0 auto;
+	padding-bottom: 55px;
+}
+
+.produce-content{
+	text-align: center;
+	padding: 55px 0;
+}
+
+.main5{
+	height: 550px;
+	background-color: #eeeeee;
+
+}
+
+#contact{
+	width: 70%;
+	margin: 0 auto;
+}
+
+.contact-content{
+	text-align: center;
+}
+
+footer{
+	width: 100%;
+	height: 55px;
+}
+
+footer h1{
+	font-size: 20px;
+	text-align: center;
+	line-height: 55px;
+}
+
+@media screen and (max-width:768px) {
+
+	body{
+		width: 100%;
+		height: 550px;
+	}
+
+	.contents{
+		width: 100%;
+		height: 570px;
+		background-color: #33ccff;
+	}
+
+	header{
+		width: 90%;
+		height: 70px;
+	}
+
+	.header-logo{
+		float: left;
+	}
+
+nav.globalMenuSp {
+    position: absolute;
+    z-index: 2;
+    top: -20%;
+    left: 0;
+    background: #fff;
+    color: #000;
+    text-align: center;
+    transition: all 0.6s;
+    width: 100%;
+}
+
+nav.globalMenuSp ul {
+    background: #ccc;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+}
+ 
+nav.globalMenuSp ul li {
+    font-size: 1.1em;
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+    border-bottom: 1px dotted #333;
+}
+ 
+
+nav.globalMenuSp ul li:last-child {
+    padding-bottom: 0;
+    border-bottom: none;
+}
+
+nav.globalMenuSp ul li a {
+    display: block;
+    color: #000;
+    padding: 1em 0;
+}
+
+/* このクラスを、jQueryで付与・削除する */
+
+/* ---------- menu DEMO ---------- */
+.test{
+	border-bottom: 2px solid white;
+	line-height: 30px;
+	text-align: center;
+}
+/* ---------- / menu DEMO ---------- */
+
+
+.header-background{
+	height: 0;
+	background-color: red;
+	overflow: hidden;
+}
+	.nav-items{
+		display: none;
+	}
+
+	.nav-item a {
+		color: #fafafa !important;
+		display: inline-block;
+		width: 100%;
+	}
+
+	.nav-item a:hover{
+		color:black;
+		background-color: #87CEFA;
+		text-decoration: none;
+		opacity: 0.8;
+	}
+
+
+	.img-box{
+		width: 100%;
+	}
+
+	.slide-img{
+		width: 100%;
+		height: 350px;
+		background-image: url(img/jobs.jpg);
+		background-size: cover;
+		background-position: center;
+	}
+
+
+	.app-box{
+		width: 50%;
+		height: 120px;
+		margin: 0 auto;
+	}
+
+	div .apple{
+		width: 150px;
+		margin: 0 auto;
+		float: left;
+		margin-right: 10px;
+		border-radius: 10%;
+
+	}
+
+	div .google{
+		width: 150px;
+		margin: 0 auto;
+		float: left;
+		border-radius: 10%;
+	}
+
+	.aboutcontent{
+		width: 90%;
+		height: 1550px;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	.column{
+		float: none;
+		text-align: center;
+		margin: 0 auto;
+		width: 80%;
+	}
+
+	.column-img{
+		margin: 0 auto;
+		text-align: center;
+		float: none;
+	}
+
+	.column-text-above{
+		padding: 100px 0 50px;
+	}
+
+	.main2{
+	/*	 background-image: url(img/light.jpg);
+		 background-size: cover;
+		 background-position: center;
+	*/	 height: 700px;
+		background-color: #eeeeee;
+	}
+
+
+
+	#movie{
+		width: 90%;
+		height: 500px;
+		margin: 0 auto;
+	}
+
+	.movie-content iframe{
+		width: 500px;
+		height: 382px;
+		padding: 50px 0;
+	}
+
+	.main3{
+		background-image: url(img/space.jpg);
+		background-size: cover;
+		width: 100%;
+	}
+
+	#feature{
+		width: 90%;
+		/*height: 800px;*/
+		margin: 0 auto;
+		padding-bottom: 90px;
+		color: #fff;
+	}
+
+	.feature-text h1{
+		padding: 90px 0 8px;
+		border-bottom: 3px solid #ec715f;
+		color: #fff;
+
+	}
+
+	.feature-text p{
+		font-size: 16px;
+		padding: 30px 0;
+		color: #fff;
+	}
+
+	.feature-text{
+		text-align: center;
+		color: #000000;
+	}
+
+	.feature-box h2{
+		padding: 10px 0;
+	}
+
+	.feature-box{
+		float: none;
+		width: 320px;
+		height: auto;
+		padding: 20px 15px;
+	}
+
+	.feature-box:nth-child(-n+2){
+		margin: 20px auto;
+	}
+
+	.feature-box:nth-child(3){
+		margin: 0 auto;
+	}
+
+	#produce{
+		width: 90%;
+		height: 500px;
+		margin: 0 auto;
+		padding-bottom: 55px;
+	}
+	.produce-content{
+		text-align: center;
+		padding-top: 70px;
+	}
+
+	#contact{
+		width: 70%;
+		margin: 0 auto;
+	}
+}
+
+	@media screen and (max-width:400px) {
+
+	.movie-content iframe{
+	width: 300px;
+	height: 170px;
+	}
+
+
+	.contents{
+		height: 570px;
+	}
+
+	.slide-img{
+		height: 250px;
+	}
+
+.column-img {
+	float: none;
+	width: 70%;
+	padding: 30px 0 10px;
+}
+
+
+}
