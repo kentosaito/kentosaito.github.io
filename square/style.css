@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: /*"1ButtonAL",*/ Righteous, Lucida Console, candara;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.font-change{
+	font-family: sans-serif;
+}
+
+body{
+	width: 100%;
+	height: 500px;
+}
+li{
+	list-style: none;
+}
+
+span{
+	display: block;
+}
+
+.contents{
+	width: 100%;
+	background-color: #fff;
+	height: 580px;
+}
+
+
+.split{
+	position: absolute;
+	width: 50%;
+	height: 100%;
+}
+
+.left{
+	width: 50%;
+	height: 585px;
+	position: relative;
+	border: solid 12px #87CEFA;
+	float: left;
+	left: 0;
+}
+
+.left-content{
+	position: absolute; top: 100px; left: 55px;
+}
+
+nav{
+	padding-top: 55px;
+	font-size: 22px;
+}
+
+.nav-item{
+  position: relative;
+}
+
+.nav-item a:hover{
+	text-decoration: none;
+}
+
+.nav-item:before{
+  position: absolute;
+  top: 1.3em;
+  left: 0;
+  content: "";
+  width: 0;
+  height: 2px;
+  background: #34BBF3;
+  transition: 1s;
+}
+
+.nav-item:hover:before{
+  width: 100%;
+}
+
+.right{
+	width: 50%;
+	float: left;
+	right: 0;
+	overflow-y: scroll;
+	border: solid 12px #F1A9A0;
+}
+
+.top-img{
+	width: 480px;
+	height: 380px;
+}
+
+.profile-content, .profile-img{
+	float: left;
+}
+
+.profile-img{
+	width: 270px;
+	height: 300px;
+	padding-left: 55px;
+}
+
+.top,.profile, .portfolio{
+	position: relative;
+	display: none;
+}
+
+.right-content{
+	position: absolute; top: 100px; left: 55px;
+}
+
+.profile, .portfolio{
+	display: none;
+}
+
+.title{
+	padding-bottom: 30px;
+}
+
+.portfolio-text{
+	padding: 20px;
+}
+
+.portfolio-content a:hover{
+	opacity: 0.7;
+	transition: all 1s;
+}
